@@ -4,7 +4,5 @@ def is_anagram(first_string: str, second_string: str) -> bool:
     """
     first_anagram = sorted(first_string)
     second_anagram = sorted(second_string)
-    if(first_anagram==second_anagram):
-        return True
-    else:
-        return False
+    return first_anagram==second_anagram
+
